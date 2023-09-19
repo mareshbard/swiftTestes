@@ -9,13 +9,13 @@ usando:
 - filtro de array
   # CÓDIGO:
 
+{
 class Filmes {
     var nomeFilme: String
     var diretores: [String]
     var sobre: String { 
       return "posso inserir um comentário depois sobre o filme \(nomeFilme)"
     }
-    
     init(nomeFilme: String, diretores: [String]) { //instanciou
         self.nomeFilme = nomeFilme
         self.diretores = diretores
@@ -62,3 +62,4 @@ let filtrado = filme1.filtrarDirComO()
 print(filtrado)
 print(filme1.sobre)
 
+}
