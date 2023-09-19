@@ -12,7 +12,7 @@ usando:
 class Filmes {
     var nomeFilme: String
     var diretores: [String]
-    var sobre: String { //computada
+    var sobre: String { 
       return "posso inserir um comentário depois sobre o filme \(nomeFilme)"
     }
     
