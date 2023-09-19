@@ -9,7 +9,7 @@ usando:
 - filtro de array
   # CÓDIGO:
 
-~~~
+
 class Filmes {
     var nomeFilme: String
     var diretores: [String]
@@ -60,5 +60,5 @@ print(animacao1.nomeFilme)
 let filtrado = filme1.filtrarDirComO()
 print(filtrado)
 print(filme1.sobre)
-~~~
+
 
