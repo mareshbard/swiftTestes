@@ -9,7 +9,7 @@ usando:
 - filtro de array
   # CÓDIGO:
 
-{
+~~~
 class Filmes {
     var nomeFilme: String
     var diretores: [String]
@@ -35,11 +35,10 @@ class Filmes {
         }
         return dirFiltro
     }
-}
-
+} 
 class Animacao: Filmes {
     let estilo: String
-
+    
     init(nomeFilme: String, diretores: [String], estilo: String) {
         self.estilo = estilo
         super.init(nomeFilme: nomeFilme, diretores: diretores)
@@ -61,5 +60,5 @@ print(animacao1.nomeFilme)
 let filtrado = filme1.filtrarDirComO()
 print(filtrado)
 print(filme1.sobre)
+~~~
 
-}
